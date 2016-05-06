@@ -16,6 +16,8 @@ jQuery(document).ready(function($) {
 	   var pat = $('svg pattern'); //map pattern for globe
         
         rotateGlobe(pat);
+
+         window.beep = new Audio('beep.wav');
         
         // Rotate SVG Globe Logic
 

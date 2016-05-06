@@ -96,8 +96,8 @@
 
          notification_tile.attr('class',"notif");
 
-         var audio = new Audio('beep.wav');
-         audio.play();
+        
+         window.beep.play();
 
          // staggerTimeline.from(notification_tile,1,{y:-50,autoAlpha:0,height:0});
 
